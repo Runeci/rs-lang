@@ -18,16 +18,16 @@ export class MenuAside {
       iconClass: 'gamepad',
       text: 'игры',
     },
-    {
-      className: 'team',
-      iconClass: 'user-friends',
-      text: 'о команде',
-    },
-    {
-      className: 'overview',
-      iconClass: 'film',
-      text: 'обзор',
-    },
+    // {
+    //   className: 'team',
+    //   iconClass: 'user-friends',
+    //   text: 'о команде',
+    // },
+    // {
+    //   className: 'overview',
+    //   iconClass: 'film',
+    //   text: 'обзор',
+    // },
   ];
 
   private readonly menuUserButtons: MenuSection[] = [

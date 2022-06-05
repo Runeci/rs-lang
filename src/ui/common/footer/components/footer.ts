@@ -5,20 +5,7 @@ export class Footer {
     const wrapper = document.querySelector('.wrapper') as HTMLElement;
     const footer = document.createElement('footer') as HTMLElement;
     footer.classList.add('footer');
-    footer.innerHTML = `<div class="github-container">
-    <a href="https://github.com/Runeci" target="_blank" class="github">
-       <p>Runeci</p>
-       <i class="fab fa-github"></i>
-    </a>
-    <a href="https://github.com/Alhladkiy" target="_blank" class="github">
-       <p>Alhladkiy</p>
-       <i class="fab fa-github"></i>
-    </a>
-    <a href="https://github.com/seregaby2" target="_blank" class="github">
-        <p>Seregaby2</p>
-        <i class="fab fa-github"></i>
-    </a>
-       </div>
+    footer.innerHTML = `
        <div class="footer-year-container">
          <div>2022</div>
           <a class="rs-logo" href="https://rs.school/js/" target="_blank">
